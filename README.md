@@ -36,7 +36,7 @@ With GitHub Pages, you can host project blogs, documentation, resumes, portfolio
 2. In the new tab, follow the prompts to create a new repository.
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   ![Create a new repository](https://user-images.githubusercontent.com/1221423/218594143-e60462b6-9f2a-4fa3-80de-063ac5429aab.png)
+     ![Create a new repository](https://user-images.githubusercontent.com/1221423/218594143-e60462b6-9f2a-4fa3-80de-063ac5429aab.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
 </details>
@@ -92,9 +92,9 @@ We need to use a blog-ready theme. For this activity, we will use a theme named 
 1. Browse to the `_config.yml` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
 1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-    ```yml
-    theme: minima
-    ```
+   ```yml
+   theme: minima
+   ```
 1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
 1. Commit your changes.
 1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.

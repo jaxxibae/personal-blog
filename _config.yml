@@ -1,2 +1,36 @@
-theme: minima
-title: Paiva
+# Setup
+title: David
+url: https://jaxxibae.github.io
+paginate: 1
+baseurl: ""
+permalink: /:categories/:title
+timezone: Europe/Lisbon
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+author:
+  name: David
+  url: https://github.com/jaxxibae
+  github: jaxxibae
+
+# Custom vars
+version: 3.0.0
+
+# RSS
+feed_items: 10
+feed_update_period: hourly
+feed_update_frequency: 1
